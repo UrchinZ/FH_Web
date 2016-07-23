@@ -1,0 +1,9 @@
+h1{
+	position: relative;
+}
+
+.logo{
+	float: left;
+	width: 200px;
+	height: auto;
+}
