@@ -1,5 +1,15 @@
-h1{
-	position: relative;
+div[role="header"]{
+	padding: 20px;
+	background-color: #B22222;	/*Fire brick red*/
+}
+
+div[role="banner"]{
+	margin-left: 100px;
+	color: #000;
+}
+
+div[role="banner"] h1 {
+	font-size: 50px;
 }
 
 .logo{
@@ -7,6 +17,22 @@ h1{
 	width: 200px;
 	height: auto;
 }
+div[role="nav"]{
+	margin-right: 100px;	
+}
+
+div[role="nav"] a {
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #FFF;
+	border:1px solid;
+	border-color: #B22222;
+	border-left-color: white;
+	padding-left: 20px;
+}
+
+
 
 .sponsor{
 	width: 350px;
