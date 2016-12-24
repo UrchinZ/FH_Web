@@ -1,6 +1,18 @@
 div[role="header"]{
 	padding: 20px;
 	background-color: #B22222;	/*Fire brick red*/
+	border-radius: 16px;
+}
+
+div[role="infoHeader"]{
+	color: #FFFFFF;
+	background-color: #6E6E6E;	/*Light Red*/
+	border-radius: 6px;
+	padding-left: 4px;
+}
+
+div[role="visionHeader"]{
+	padding-left: 15px;
 }
 
 div[role="banner"]{
@@ -12,13 +24,26 @@ div[role="banner"] h1 {
 	font-size: 50px;
 }
 
+p {
+    text-indent: 50px;
+}
+
 .logo{
 	float: left;
 	width: 200px;
 	height: auto;
 }
+
+.teamPhoto{
+	max-width: 45%;
+  height: auto;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+}
+
 div[role="nav"]{
-	margin-right: 100px;	
+	margin-right: 100px;
 }
 
 div[role="nav"] a {
@@ -32,9 +57,13 @@ div[role="nav"] a {
 	padding-left: 20px;
 }
 
-
+figcaption {
+	text-align: center;
+}
 
 .sponsor{
-	width: 350px;
+	width: 300px;
 	height: auto;
+	display: block;
+	margin: auto;
 }
