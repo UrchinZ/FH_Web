@@ -24,8 +24,8 @@ div[role="banner"] h1 {
 	font-size: 50px;
 }
 
-p {
-    text-indent: 50px;
+.indented{
+    text-indent: 25px;
 }
 
 .logo{
@@ -66,4 +66,52 @@ figcaption {
 	height: auto;
 	display: block;
 	margin: auto;
+}
+
+.sponsor_past{
+	width: 140px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_silver{
+	width: 240px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_gold{
+	width: 310px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_div{
+	float: left;
+}
+
+.Sponsor_Outer {
+  display: table;
+	margin: auto;
+}
+
+.Sponsor_Col {
+  display: table-cell;
+	width: 410px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.Sponsor_Col_Past {
+  display: table-cell;
+	width: 200px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
 }
