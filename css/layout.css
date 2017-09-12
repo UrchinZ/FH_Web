@@ -83,7 +83,28 @@ figcaption {
 }
 
 .sponsor_gold{
-	width: 310px;
+	width: 430px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_ecse{
+	width: 300px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_ruby{
+	width: 600px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.sponsor_school{
+	width: 270px;
 	height: auto;
 	display: block;
 	margin: auto;
